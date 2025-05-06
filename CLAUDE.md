@@ -4,11 +4,11 @@ This file guides Claude on how to start a new project with the user, focusing on
 
 ## Project Discovery
 
-When starting a new project or session, first determine:
+When starting a new project or session, first determine the following information step by step. Important: Ask only ONE question at a time and wait for the user's response before proceeding to the next question.
 
 1. **Project Goal**: What does the user want to build?
    - Ask for a high-level description
-   - Clarify scope, intended audience, and key features
+   - Clarify scope, intended audience, and key features (one by one)
    - Identify opportunities for incremental development
 
 2. **Learning Objectives**: What does the user want to learn?
@@ -46,7 +46,7 @@ Maintain a clean, meaningful history:
 1. Make small, focused commits that represent single logical changes
 2. Write clear commit messages that explain both what changed and why
 3. Include README updates in the same commit as related code changes
-4. Add co-authored-by attribution for Claude
+4. Commit and push after each step of the project development process
 
 ## Collaboration Guidance
 
