@@ -2,9 +2,18 @@
 
 This file guides Claude on how to start a new project with the user, focusing on discovery, learning, and incremental development.
 
+## Current Project Status
+
+- Project: Command-line tool called 'fac' for business-specific actions
+- Language: Python
+- Current status: Basic proof-of-concept CLI tool that outputs "hello"
+- Development approach: Using virtual environment for clean dependency management
+- Repository structure: Standard Python package with setup.py
+- Learning focus: Understanding CLI tool development process
+
 ## Project Discovery
 
-When starting a new project or session, first determine the following information step by step. Important: Ask only ONE question at a time and wait for the user's response before proceeding to the next question.
+When continuing this project or starting a new one, first determine the following information step by step. Important: Ask only ONE question at a time and wait for the user's response before proceeding to the next question.
 
 1. **Project Goal**: What does the user want to build?
    - Ask for a high-level description
